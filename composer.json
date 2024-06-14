@@ -4,5 +4,6 @@
     "keywords": ["wordpress","wordpress plugin"],
     "require": {
         "php": ">=7.4"
-    }
+    },
+    "license": "MIT"
 }
