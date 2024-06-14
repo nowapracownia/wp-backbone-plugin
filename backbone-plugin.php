@@ -30,6 +30,7 @@ define( 'THE_PLUGIN_FILE', __FILE__ );
 define( 'THE_PLUGIN_PATH', realpath( plugin_dir_path( THE_PLUGIN_FILE ) ) . '/' );
 define( 'THE_PLUGIN_URL', plugin_dir_url( THE_PLUGIN_FILE ) );
 define( 'THE_PLUGIN_TEXTDOMAIN', 'the-plugin' );
+define( 'TEST_CONSTANT', 'dfdsfsdsdfds' )
 
 spl_autoload_register(
 	function ( $class ) {
