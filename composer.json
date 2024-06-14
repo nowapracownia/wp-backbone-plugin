@@ -1,0 +1,7 @@
+{
+    "name": "nowapracownia/wp-backbone-plugin",
+    "description": "A simple WordPress plugin boilerplate",
+    "require": {
+        "php": ">=7.4"
+    }
+}
