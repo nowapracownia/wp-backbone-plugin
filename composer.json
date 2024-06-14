@@ -1,6 +1,7 @@
 {
     "name": "nowapracownia/wp-backbone-plugin",
     "description": "A simple WordPress plugin boilerplate",
+    "keywords": ["wordpress","wordpress plugin"],
     "require": {
         "php": ">=7.4"
     }
