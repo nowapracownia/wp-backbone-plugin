@@ -5,21 +5,5 @@
     "require": {
         "php": ">=7.4"
     },
-    "license": "MIT",
-    "scripts": {
-        "post-install-cmd": [
-            "@copy-files",
-            "@cleanup"
-        ],
-        "post-update-cmd": [
-            "@copy-files",
-            "@cleanup"
-        ],
-        "copy-files": [
-            "php -r \"if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') { system('xcopy /E /I vendor\\nowapracownia\\wp-backbone-plugin\\* .\\'); } else { system('cp -r vendor/nowapracownia/wp-backbone-plugin/* ./'); }\""
-        ],
-        "cleanup": [
-            "php -r \"if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') { system('rd /s /q vendor && del /q composer.*'); } else { system('rm -rf vendor composer.*'); }\""
-        ]
-    }
+    "license": "MIT"
 }
